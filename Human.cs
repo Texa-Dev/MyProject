@@ -21,5 +21,10 @@ namespace ProjectGitHW
         public string GetName() { return Name; }
 
         public int GetAge() { return Age; } 
+
+        public void Info()
+        {
+            Console.WriteLine($"Name: {GetName()} Age: {GetAge()}");
+        }
     }
 }
