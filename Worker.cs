@@ -16,5 +16,10 @@ namespace ProjectGitHW
         }
 
         public double GetSalary() { return Salary; }
+
+        public void Info()
+        {
+            Console.WriteLine($"Name: {GetName()} Age: {GetAge()} Salary: {GetSalary()}");
+        }
     }
 }
